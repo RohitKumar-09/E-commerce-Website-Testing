@@ -1,2 +1,3 @@
 # E-commerce-Website-Testing
 In this project, I performed manual testing on a demo shopping website that sells phones, laptops, and monitors. The key areas tested include Login, Signup, Add to Cart, Checkout, and UI elements to ensure smooth functionality.
+I documented all test cases and bug reports in Excel and created a test plan in MS Word. Through this project, I gained a deep understanding of testing principles, such as the flow of testing, levels of testing, and defect clustering (where most bugs are found in specific areas). This hands-on experience helped me grasp the importance of structured testing in identifying and resolving software defects efficiently.
