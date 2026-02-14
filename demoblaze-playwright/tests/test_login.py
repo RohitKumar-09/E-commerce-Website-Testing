@@ -1,9 +1,6 @@
-from playwright.sync_api import sync_playwright, expect
+from playwright.sync_api import expect
 
-def test_login_valid_user():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)  # change to True in CI
-        page = browser.new_page()
+def test_login_valid_user(page):
 
         page.goto("https://www.demoblaze.com")
 
@@ -18,6 +15,4 @@ def test_login_valid_user():
         page.click("button[onclick='logIn()']")
 
         # Assertion → username appears in navbar
-        expect(page.locator("#nameofuser")).to_contain_text("Welcome")
-
-        browser.close()
+        expect(page.locator("#nameofuser")).to_contain_text("admin")
