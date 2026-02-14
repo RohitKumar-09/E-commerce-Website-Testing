@@ -25,7 +25,7 @@ This project contains basic UI automation for the Demoblaze e-commerce website u
 To get started with this project, clone the repository and navigate to the project directory:
 
 ```bash
-git clone [https://github.com/RohitKumar-09/E-commerce-Website-Testing.git](https://github.com/RohitKumar-09/E-commerce-Website-Testing.git)
+git clone https://github.com/RohitKumar-09/E-commerce-Website-Testing.git
 cd E-commerce-Website-Testing
 ```
 
